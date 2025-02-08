@@ -45,11 +45,11 @@ const resources = {
                   {Object.keys(resources).map((category, index) => (
                       <div key={index} className="resource-tile" onClick={() => toggleCategory(category)}>
                           <h3 className="tile-title">
-                              {category === "legal" ? "Legal Help ❤️" :
-                               category === "mentalhealth" ? "Mental Health 💝" :
-                               category === "housing" ? "Housing 🏡" :
-                               category === "supportGroups" ? "Support Groups 💕" :
-                               category === "abortion" ? "Abortion Resources 💗" : category}
+                              {category === "legal" ? "Legal Help" :
+                               category === "mentalhealth" ? "Mental Health" :
+                               category === "housing" ? "Housing" :
+                               category === "supportGroups" ? "Support Groups" :
+                               category === "abortion" ? "Abortion Resources" : category}
                           </h3>
   
                           {/* Show resources when the tile is clicked */}
