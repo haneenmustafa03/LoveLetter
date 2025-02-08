@@ -16,9 +16,12 @@ export const SectionTwo = () => {
   return (
         <div className="secondSection">
         <div className="flexBox">
-          <button class = "box" onClick={openModal1}>1</button>
-          <button class = "box" onClick={openModal2}>2</button>
-          <button class = "box" onClick={openModal3}>3</button>
+          <button class = "box" onClick={openModal1}>
+            <p>PROMPTS TO JOURNAL
+              </p>
+            </button>
+          <button class = "box" onClick={openModal2}>GIFT INSPO</button>
+          <button class = "box" onClick={openModal3}>SELF DATE INSPO</button>
           <Modal isOpen={isModalOpen1} onClose={closeModal1}>
             <p> modal open 1</p>
           </Modal>
