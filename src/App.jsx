@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div className="flex flex-col items-center justify-center min-h-screen bg-pink-100 text-gray-800">
+      {/* Cute Header */}
+      <h1 className="text-5xl font-bold text-pink-500 drop-shadow-lg">
+        💖 Self-Love Counter 💖
+      </h1>
+
+      {/* Cute Counter Card */}
+      <div className="mt-8 bg-white shadow-xl rounded-2xl p-6 text-center border-4 border-pink-300">
+        <p className="text-xl font-semibold text-pink-600">
+          Every click = a little more love for yourself! 💕
         </p>
+        <button
+          onClick={() => setCount((count) => count + 1)}
+          className="mt-4 px-6 py-3 bg-pink-400 hover:bg-pink-500 text-white font-bold text-lg rounded-full shadow-md transition-all duration-200"
+        >
+          Self-Love Count: {count}
+        </button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+
+      {/* Footer Message */}
+      <p className="mt-6 text-lg text-gray-600">
+        Take a moment to appreciate yourself today. You are amazing! ✨
       </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
