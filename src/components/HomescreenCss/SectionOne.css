@@ -1,6 +1,6 @@
 .WelcomeSection {
     position: relative;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     overflow: hidden;
     background-color: transparent;
@@ -22,8 +22,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
-    color: #f9dce1;
+    font-size: 8rem;
+    color: #cc3339;
     font-weight: bold;
     z-index: 1;
   }

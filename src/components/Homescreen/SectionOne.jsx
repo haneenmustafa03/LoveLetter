@@ -102,7 +102,7 @@ export const SectionOne = () => {
       ) : (
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
-      <h1 className="Title">My Website</h1>
+      <h1 className="Title">Love Letter</h1>
     </div>
   );
 };
