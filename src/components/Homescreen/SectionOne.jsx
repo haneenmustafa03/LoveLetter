@@ -28,7 +28,7 @@ export const SectionOne = () => {
     () => ({
       background: {
         color: {
-          value: "#f9f3dd",
+          value: "#ffffff",
         },
       },
       fpsLimit: 120,
@@ -102,7 +102,7 @@ export const SectionOne = () => {
       ) : (
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
-      <h1 className="Title">Love Letter</h1>
+      <h1 className="syncopate-regular">Love Letter</h1>
     </div>
   );
 };

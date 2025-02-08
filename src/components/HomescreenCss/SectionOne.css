@@ -5,6 +5,28 @@
     overflow: hidden;
     background-color: transparent;
   }
+
+/* .montecarlo-regular{
+    font-family: "MonteCarlo", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12rem;
+    color: #cc3339
+} */
+
+.syncopate-regular {
+    font-family: "Syncopate", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #cc3339;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9rem;
+
+  }
+
   
   /* Ensure particles take full width and height */
   #tsparticles {
