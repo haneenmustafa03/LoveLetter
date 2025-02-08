@@ -1,12 +1,33 @@
 import Modal from '../../Modal/SectionTwoModals.jsx';
 import "../../HomescreenCss/SectionTwo.css";
 import bowIcon from "../../../assets/bow.png";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export const Journal = () => {
     const [isModalOpen1, setIsModalOpen1] = useState(false);
+    const [prompts, setPrompts] = useState([]);
+    const [randomPrompts, setRandomPrompts] = useState([]);
+
     const openModal1 = () => setIsModalOpen1(true);
     const closeModal1 = () => setIsModalOpen1(false);  
+
+    const getPromptIdeas = async () => {
+        const response = await fetch('src/assets/prompts.txt');
+        const text = await response.text();
+        const promptsArray = text.split('\n').map(line => line.trim()).filter(line => line !== "");
+        setPrompts(promptsArray);
+    };
+
+    useEffect(() => {
+        getPromptIdeas(); 
+      }, [])
+
+    const generateRandomPrompts = () => {
+        if (prompts.length > 0) {
+            const shuffledPrompts = [...prompts].sort(() => 0.5 - Math.random());
+            setRandomPrompts(shuffledPrompts.slice(0, 5));
+        }
+    }
     return (
         <div>
             <button class = "box" onClick={openModal1}>
@@ -16,6 +37,13 @@ export const Journal = () => {
             </button>
             <Modal isOpen={isModalOpen1} onClose={closeModal1}>
             <h2>Randomly Generated Journal Prompts</h2>
+            <button onClick={generateRandomPrompts}>Generate Random Prompts</button>
+            <ul>
+                {randomPrompts.map((prompt, index) => (
+                    <li key={index}>{prompt}</li>
+                ))}
+                
+            </ul>
             
             
         </Modal>
