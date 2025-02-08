@@ -57,10 +57,10 @@ export const SectionOne = () => {
       },
       particles: {
         color: {
-          value: "#ffd2ed",
+          value: "#ffe6e6",
         },
         links: {
-          color: "#ffd2ed",
+          color: "#ffe6e6",
           distance: 150,
           enable: true,
           opacity: 0.8,
