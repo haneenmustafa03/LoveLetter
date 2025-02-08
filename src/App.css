@@ -15,7 +15,7 @@
 .WelcomeSection {
   height: 100vh;
   position: relative;
-  background-color: #f9f3dd; /* Light background color */
+  background-color: #ffffff; /* Light background color */
   overflow: hidden; /* Prevent particles from overflowing */
 }
 
