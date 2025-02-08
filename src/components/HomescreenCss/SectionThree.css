@@ -1,5 +1,5 @@
 .resource-container {
-    font-family: "Syncopate", serif;
+    font-family: "Noto Serif Display", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,15 +13,16 @@
 /* Section Title */
 .section-title {
     font-size: 3rem;
-    font-weight: normal;
-    color: #ff4081; /* Bright Pink */
+    font-weight: bold;
+    color: #CC3339; /* RED */
     margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.5);
 }
 
 .title-caption{
     font-size: 1rem;
     font-weight: bold;
-    color:#ff1744;
+    color:#CC3339;
     margin-bottom: 2rem;
 }
 
@@ -57,7 +58,8 @@
 .tile-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff1744; /* Purple-Pink */
+    color: #CC3339; 
+    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.3);
 }
 
 /* Hidden Resource List */
