@@ -25,4 +25,13 @@
     transform: scale(1.1);
     background-color: pink;
   }
-  
+  img {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  h1 {
+    font-size: 7vh;
+    margin: 2vh 0 0 0;
+    
+  }
