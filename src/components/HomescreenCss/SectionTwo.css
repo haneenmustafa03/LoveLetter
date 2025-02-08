@@ -1,3 +1,11 @@
+.noto-serif-display {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 .secondSection {
     justify-content: center;
     margin: 30vh 0;
@@ -5,6 +13,7 @@
   
   .flexBox {
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
     gap: 5vw;
@@ -12,6 +21,7 @@
   
   .box {
     text-align: center;
+    position: relative;
     border-radius: 20px;
     border-color: transparent;
     color: #CC3339;
@@ -33,5 +43,14 @@
   h1 {
     font-size: 7vh;
     margin: 2vh 0 0 0;
-    
+    font-family: "Noto Serif Display";
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.5);
+  }
+  #butterfly{
+    margin: 6vh 0 0 0;
+  }
+
+  #heart {
+    margin: 12vh 0 0 0;
   }
