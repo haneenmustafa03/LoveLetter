@@ -1,12 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
-  font-family: 'glorionFont';  /* Custom name for your font */
-  src: url('./assets/glorion-demo/GlorionDemo-Bold.otf') format('otf'), /* Link to the font file */
-       url('./assets/glorion-demo/GlorionDemo-Medium.otf') format('truetype'),
-       url('./assets/glorion-demo/GlorionDemo-Regular.otf') format('truetype');
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: #f9f3dd /* helped get rid of the white border */
 }
@@ -14,7 +8,6 @@
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  font-family: 'glorionFont'; 
 }
 
 button {
