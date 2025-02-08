@@ -17,7 +17,7 @@ function App() {
  return (
    <div className="screen">
      {/* Section 1 */}
-     {/* <SectionOne /> */}
+     <SectionOne />
      {/* Blah blah blah */}
 
 
