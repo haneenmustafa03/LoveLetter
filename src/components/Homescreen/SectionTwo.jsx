@@ -1,6 +1,7 @@
 import "../HomescreenCss/SectionTwo.css";
 import React, { useState } from 'react';
 import Modal from '../Modal/SectionTwoModals.jsx';
+import bowIcon from "../../assets/bow.png"
 export const SectionTwo = () => {
   const [isModalOpen1, setIsModalOpen1] = useState(false);
   const [isModalOpen2, setIsModalOpen2] = useState(false);
@@ -17,9 +18,10 @@ export const SectionTwo = () => {
         <div className="secondSection">
         <div className="flexBox">
           <button class = "box" onClick={openModal1}>
-            <p>PROMPTS TO JOURNAL
-              </p>
-            </button>
+            <h1>PROMPTS TO JOURNAL
+            </h1>
+            <img  src = {bowIcon} alt = "bow" />
+          </button>
           <button class = "box" onClick={openModal2}>GIFT INSPO</button>
           <button class = "box" onClick={openModal3}>SELF DATE INSPO</button>
           <Modal isOpen={isModalOpen1} onClose={closeModal1}>
