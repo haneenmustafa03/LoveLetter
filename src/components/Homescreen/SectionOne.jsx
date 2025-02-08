@@ -2,6 +2,7 @@ import "../HomescreenCss/SectionOne.css";
 import React, { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import { loadHeartShape } from "@tsparticles/shape-heart";
 
 export const SectionOne = () => {
   const [init, setInit] = useState(false);
@@ -10,6 +11,7 @@ export const SectionOne = () => {
     initParticlesEngine(async (engine) => {
       try {
         await loadSlim(engine);
+        await loadHeartShape(engine);
         setInit(true);
       } catch (error) {
         console.error("Particles initialization failed:", error);
@@ -26,7 +28,7 @@ export const SectionOne = () => {
     () => ({
       background: {
         color: {
-          value: "#f9f3dd",
+          value: "#ffffff",
         },
       },
       fpsLimit: 120,
@@ -53,10 +55,10 @@ export const SectionOne = () => {
       },
       particles: {
         color: {
-          value: "#f9dce1",
+          value: "#ffd2ed",
         },
         links: {
-          color: "#f9dce1",
+          color: "#ffd2ed",
           distance: 150,
           enable: true,
           opacity: 0.8,
@@ -82,10 +84,10 @@ export const SectionOne = () => {
           value: 1,
         },
         shape: {
-          type: "star",
+          type: "heart",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 5, max: 8 },
         },
       },
       detectRetina: true,
@@ -100,7 +102,7 @@ export const SectionOne = () => {
       ) : (
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
-      <h1 className="Title">My Website</h1>
+      <h1 className="syncopate-regular">Love Letter</h1>
     </div>
   );
 };
