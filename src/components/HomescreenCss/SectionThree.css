@@ -16,11 +16,11 @@
     font-weight: bold;
     color: #CC3339; /* RED */
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.5);
+    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.2);
 }
 
 .title-caption{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color:#CC3339;
     margin-bottom: 2rem;
@@ -59,7 +59,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #CC3339; 
-    text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.3);
 }
 
 /* Hidden Resource List */
