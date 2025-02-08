@@ -13,7 +13,8 @@
 
   .modal-content {
     background-color: #F9DCE1;
-    padding: 40vh 75vh;
+    width: 170vh;
+    height: 90vh;
     border-radius: 5px;
     position: relative;
   }
@@ -26,4 +27,10 @@
     cursor: pointer;
     border: none;
     background: none;
+  }
+  h2 {
+    margin: 7vh 1vh;
+    color: #CC3339;
+    font-family: "Syncopate";
+    font-size: 3.5em;
   }

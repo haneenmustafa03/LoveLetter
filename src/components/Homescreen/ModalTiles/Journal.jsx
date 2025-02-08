@@ -15,7 +15,8 @@ export const Journal = () => {
             <img  src = {bowIcon} alt = "bow" />
             </button>
             <Modal isOpen={isModalOpen1} onClose={closeModal1}>
-            <p> modal open 1</p>
+            <h2>Randomly Generated Journal Prompts</h2>
+            
             
         </Modal>
         </div>
