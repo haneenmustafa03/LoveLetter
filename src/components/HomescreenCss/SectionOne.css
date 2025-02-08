@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    background-color: #f9f3dd;
+    background-color: transparent;
   }
   
   /* Ensure particles take full width and height */
