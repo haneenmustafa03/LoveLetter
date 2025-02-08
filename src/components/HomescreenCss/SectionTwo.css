@@ -20,6 +20,7 @@
     background-color: #FFD2ED;
     box-shadow: 5px;
     padding: 20vh;
+    
   }
   .box:hover {
     transform: scale(1.1);
