@@ -16,6 +16,7 @@ function App() {
     <div className="screen">
       {/* Section 1 */}
       {/* <SectionOne /> */}
+      {/* Blah blah blah */}
 
       {/* Section 2 */}
       <SectionTwo />
