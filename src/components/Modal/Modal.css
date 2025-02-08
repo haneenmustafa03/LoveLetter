@@ -33,4 +33,22 @@
     color: #CC3339;
     font-family: "Syncopate";
     font-size: 3.5em;
+    font-weight: 500;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
+
+#chatgptText{
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 2em;
+  position: absolute;
+  color: #CC3339;
+  top: 30vh;
+  left: 30vw;
+  right: 30vw;
+  
+}
