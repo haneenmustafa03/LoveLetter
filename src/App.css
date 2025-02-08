@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.flexBox {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.box {
+  text-align: center;
+  border-radius: 20px;
+  border-color: pink;
+  color: blue;
+  background-color: #FFD2ED;
+  box-shadow: 5px;
+  padding: 20vh;
+  margin: 0 40vh;
+}
+.box:hover {
+  transform: scale(1.1);
+  background-color: pink;
+}

@@ -9,8 +9,13 @@ function App() {
       </div>
 
       {/* Section 2 */}
-      <div className="flex items-center justify-center h-screen bg-purple-300 text-white text-7xl font-bold">
-        2
+      <div className="secondSection">
+        <div className="flexBox">
+          <div class = "box">1</div>
+          <div class = "box">2</div>
+          <div class = "box">3</div>
+        </div>
+        
       </div>
 
       {/* Section 3 */}
