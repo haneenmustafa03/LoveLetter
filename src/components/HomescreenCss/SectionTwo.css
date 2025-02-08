@@ -1,25 +1,24 @@
 .secondSection {
     justify-content: center;
     margin: 30vh 0;
-    background-color: yellow;
   }
   
   .flexBox {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    background-color: black;
     gap: 5vw;
   }
   
   .box {
     text-align: center;
     border-radius: 20px;
-    border-color: 20px solid rgb(255, 0, 0);
-    color: blue;
+    border-color: transparent;
+    color: #CC3339;
     background-color: #FFD2ED;
     box-shadow: 5px;
-    padding: 20vh;
+    width: 45vh;
+    height: 45vh;
     
   }
   .box:hover {
