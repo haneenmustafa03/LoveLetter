@@ -6,26 +6,29 @@ import { SectionOne } from "./components/Homescreen/SectionOne.jsx";
 import { SectionTwo } from "./components/Homescreen/SectionTwo.jsx";
 import { SectionThree } from "./components/Homescreen/SectionThree";
 
+
 function App() {
-  // const particlesInit = async (main) => {
-  //   await loadFull(main);
-  // };
-  // const particlesLoaded = (container) => {
-  //   console.log(container);
-  // };
-  return (
-    <div className="screen">
-      {/* Section 1 */}
-      {/* <SectionOne /> */}
-      {/* Blah blah blah */}
+ // const particlesInit = async (main) => {
+ //   await loadFull(main);
+ // };
+ // const particlesLoaded = (container) => {
+ //   console.log(container);
+ // };
+ return (
+   <div className="screen">
+     {/* Section 1 */}
+     {/* <SectionOne /> */}
+     {/* Blah blah blah */}
 
-      {/* Section 2 */}
-      <SectionTwo />
 
-      {/* Section 3 */}
-      <SectionThree />
-    </div>
-  );
+     {/* Section 2 */}
+     <SectionTwo />
+
+
+     {/* Section 3 */}
+     <SectionThree />
+   </div>
+ );
 }
 
 
