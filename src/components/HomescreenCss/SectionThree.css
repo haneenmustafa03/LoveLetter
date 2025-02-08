@@ -1,4 +1,5 @@
 .resource-container {
+    font-family: "Syncopate", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,8 +13,15 @@
 /* Section Title */
 .section-title {
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #ff4081; /* Bright Pink */
+    margin-bottom: 2rem;
+}
+
+.title-caption{
+    font-size: 1rem;
+    font-weight: bold;
+    color:#ff1744;
     margin-bottom: 2rem;
 }
 
@@ -49,7 +57,7 @@
 .tile-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #d500f9; /* Purple-Pink */
+    color: #ff1744; /* Purple-Pink */
 }
 
 /* Hidden Resource List */

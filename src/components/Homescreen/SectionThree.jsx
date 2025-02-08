@@ -36,7 +36,10 @@ const resources = {
   
       return (
           <div className="resource-container">
-              <h2 className="section-title">Resources for Women 💖</h2>
+              <h2 className="section-title">Lets get serious</h2>
+              <small className="title-caption">At Love Letter, our mission is to support and uplift women. If at any point you find yourself
+                in need of help, please refer to the many resources we have linked. If you are experiencing
+                an emergency, please contact 911.  </small>
   
               <div className="tiles-container">
                   {Object.keys(resources).map((category, index) => (
