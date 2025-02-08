@@ -3,9 +3,11 @@ import React, { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { loadHeartShape } from "@tsparticles/shape-heart";
+// import { useInView } from "react-intersection-observer";  // Import Intersection Observer hook
 
 export const SectionOne = () => {
   const [init, setInit] = useState(false);
+  // const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -87,7 +89,7 @@ export const SectionOne = () => {
           type: "heart",
         },
         size: {
-          value: { min: 5, max: 8 },
+          value: { min: 6, max: 10 },
         },
       },
       detectRetina: true,

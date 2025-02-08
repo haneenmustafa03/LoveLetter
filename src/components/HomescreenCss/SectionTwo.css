@@ -33,7 +33,7 @@
   }
   .box:hover {
     transform: scale(1.1);
-    background-color: pink;
+    background-color: #ffe6e6;
   }
   img {
     width: 40vh;

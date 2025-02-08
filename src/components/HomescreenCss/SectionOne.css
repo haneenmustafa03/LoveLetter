@@ -49,3 +49,15 @@
     font-weight: bold;
     z-index: 1;
   }
+
+/* .pop-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@keyframes popIn{
+    to {
+        opacity: 1;
+        transform: scale(1);
+      }
+} */
