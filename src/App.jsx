@@ -1,22 +1,28 @@
+import React from "react";
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 import "./App.css";
+import { SectionTwo } from "./components/Homescreen/SectionTwo.jsx";
+import { SectionThree } from "./components/Homescreen/SectionThree";
 
 function App() {
+  // const particlesInit = async (main) => {
+  //   await loadFull(main);
+  // };
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="screen">
       {/* Section 1 */}
-      <div className="flex items-center justify-center h-screen bg-pink-300 text-white text-7xl font-bold">
-        1
-      </div>
+      {/* <SectionOne /> */}
+      {/* Blah blah blah */}
 
       {/* Section 2 */}
-      <div className="flex items-center justify-center h-screen bg-purple-300 text-white text-7xl font-bold">
-        2
-      </div>
+      <SectionTwo />
 
       {/* Section 3 */}
-      <div className="flex items-center justify-center h-screen bg-blue-300 text-white text-7xl font-bold">
-        3
-      </div>
+      <SectionThree />
     </div>
   );
 }

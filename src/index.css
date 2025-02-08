@@ -5,6 +5,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
+  background-color: #f9f3dd /* helped get rid of the white border */
 }
 
 h1 {
