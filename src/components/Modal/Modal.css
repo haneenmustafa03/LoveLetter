@@ -12,8 +12,8 @@
   }
 
   .modal-content {
-    background-color: white;
-    padding: 20px;
+    background-color: #F9DCE1;
+    padding: 40vh 75vh;
     border-radius: 5px;
     position: relative;
   }
