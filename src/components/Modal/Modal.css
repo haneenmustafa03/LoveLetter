@@ -13,6 +13,7 @@
 
   .modal-content {
     background-color: #F9DCE1;
+    background: linear-gradient(45deg, #f9b7b9, #fbe2db);
     width: 170vh;
     height: 90vh;
     border-radius: 5px;
@@ -51,4 +52,16 @@
   left: 30vw;
   right: 30vw;
   
+}
+
+.generatorButton{
+  margin-top: 5vh;
+  font-family: "Syncopate";
+  font-size: 1.5em;
+  /* color: #333333; */
+  background-color: #F9DCE1;
+  border-color:#CC3339;
+  border-radius: 5px;
+  border-width: 10px;
+  cursor: pointer;
 }

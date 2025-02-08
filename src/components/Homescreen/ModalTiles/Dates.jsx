@@ -36,12 +36,13 @@ export const Dates = () => {
         <img src={butterflyIcon} alt="butterfly" id="butterfly" />
       </button>
       <Modal isOpen={isModalOpen3} onClose={closeModal3}>
-        <button onClick={generateRandomIdeas}>Generate 5 Random Ideas</button>
+        <h2>self-date ideas !</h2>
         <ul>
           {randomIdeas.map((idea, index) => (
             <li key={index}>{idea}</li>
           ))}
         </ul>
+        <button className = "generatorButton" onClick={generateRandomIdeas}>Generate Ideas</button>
       </Modal>
     </div>
   );
