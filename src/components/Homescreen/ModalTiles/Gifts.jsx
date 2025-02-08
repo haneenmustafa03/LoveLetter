@@ -39,7 +39,8 @@ export const Gifts = () => {
             <img  src = {heartIcon2} alt = "heart2" id = "heart" />
             </button>
             <Modal isOpen={isModalOpen2} onClose={closeModal2}>
-            <p> {response} </p>
+            <h2>Valentine's Day Gift Ideas (by your friend, chat)</h2>
+            <p id = "chatgptText"> {response} </p>
             
         </Modal>
         </div>
