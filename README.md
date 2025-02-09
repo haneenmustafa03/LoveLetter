@@ -4,11 +4,14 @@ Valentine's day is right across the corner and we want to break down the stereot
 
 To download all dependencies:
 - npm install
+
 For Linux Users:
 - sudo apt update
 - sudo apt install nodejs npm
+
 To run locally:
 - npm run dev
+
 If you run into errors regarding packages:
 - rm -rf node_modules
 - rm package-lock.json
