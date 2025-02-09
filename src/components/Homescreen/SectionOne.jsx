@@ -108,7 +108,6 @@ export const SectionOne = () => {
 
       <div className = "WelcomeSection">
       <TypewriterTitle text="Love Letter" className="syncopate-regular" />
-      
       </div>
       <div className = "AboutSection">
           <h2>
