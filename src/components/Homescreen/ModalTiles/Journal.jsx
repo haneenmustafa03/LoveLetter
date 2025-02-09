@@ -35,9 +35,9 @@ export const Journal = () => {
             </h1>
             <img  src = {bowIcon} alt = "bow" />
             </button>
-            <Modal isOpen={isModalOpen1} onClose={closeModal1}>
+            <Modal isOpen={isModalOpen1} onClose={closeModal1} className="modal-journal">
             <h2>Randomly Generated Journal Prompts</h2>
-            <button onClick={generateRandomPrompts}>Generate Random Prompts</button>
+            <button className= "generatorButton" onClick={generateRandomPrompts}>Generate Random Prompts</button>
             <ul>
                 {randomPrompts.map((prompt, index) => (
                     <li key={index}>{prompt}</li>
