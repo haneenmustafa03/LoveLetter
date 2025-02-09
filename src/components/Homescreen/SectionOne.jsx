@@ -106,8 +106,6 @@ export const SectionOne = () => {
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
       <h1 className="syncopate-regular"><Section>Love</Section><Section>Letter</Section></h1>
-      <Section>Love</Section>
-      <Section>Letter</Section>
     </div>
   );
 };
