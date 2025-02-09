@@ -58,18 +58,20 @@
 }
 
 .generatorButton{
-  display: block;
-    margin: 30vh auto 0;
+    display: block;
+    position: fixed; 
+    bottom: 175px;     
+    left: 50%;        
+    transform: translateX(-50%); 
     font-family: "Syncopate", sans-serif;
     font-size: 1.5em;
     background-color: #F9DCE1;
-    border: 3px solid #CC3339;  /* Single clean border */
-    border-radius: 12px;  /* Rounded edges for a softer look */
+    border: 3px solid #CC3339;  
+    border-radius: 12px; 
     padding: 12px 24px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    position: relative;
-    z-index: 10;
+    z-index: 1001;
 
 }
 
@@ -80,20 +82,22 @@
 
 /* Gifts Modal */
 .modal-gifts {
-  background-color: #FFB6C1;  /* Soft pink */
-  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);  /* Soft glow effect */
+  background-color: #FFB6C1;  
+  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);  
 }
 
 /* Dates Modal */
 .modal-dates {
-  background-color: #FFD1DC;  /* Light pink */
+  background-color: #FFD1DC;  
   box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);
 }
 
 .modal-dates ul,
 .modal-journal ul{
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none; 
   padding: 0;
+  overflow-y: auto; 
+  max-height: 70vh;
   text-align: center;
 }
 
@@ -110,6 +114,6 @@
 
 /* Journal Modal */
 .modal-journal {
-  background-color: #FFE4E1;  /* Rosy pink */
+  background-color: #FFE4E1;  
   box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);
 }
