@@ -34,7 +34,7 @@ export const Journal = () => {
     return (
         <div>
             <button class = "box" onClick={openModal1}>
-            <h1>PROMPTS TO JOURNAL
+            <h1>JOURNAL PROMPTS
             </h1>
             <img  src = {bowIcon} alt = "bow" />
             </button>
