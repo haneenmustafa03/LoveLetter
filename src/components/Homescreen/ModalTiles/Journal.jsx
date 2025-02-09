@@ -36,7 +36,7 @@ export const Journal = () => {
             <button class = "box" onClick={openModal1}>
             <h1>JOURNAL PROMPTS
             </h1>
-            <img  src = {bowIcon} alt = "bow" />
+            <img  src = {bowIcon} id = "bow" />
             </button>
             <Modal isOpen={isModalOpen1} onClose={closeModal1} className="modal-journal">
             <h2>Randomly Generated Journal Prompts</h2>

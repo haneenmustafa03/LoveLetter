@@ -12,9 +12,11 @@
   }
   
   .flexBox {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0 auto;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: row;
     gap: 5vw;
   }
@@ -29,7 +31,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     width: 45vh;
     height: 45vh;
-    
+    padding: 0;  
   }
   .box:hover {
     transform: scale(1.1);
@@ -47,10 +49,13 @@
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.5);
   }
+  #bow {
+    padding: 3vh 0 0 0;
+  }
   #butterfly{
-    margin: 6vh 0 0 0;
+    padding: 6vh 0 0 0;
   }
 
   #heart {
-    margin: 12vh 0 0 0;
+    padding: 12vh 0 0 0;
   }
