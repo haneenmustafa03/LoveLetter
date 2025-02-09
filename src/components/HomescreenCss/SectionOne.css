@@ -1,10 +1,10 @@
 .WelcomeSection {
     position: relative;
-    height: 70vh;
+    height:100vh;
     width: 100%;
     overflow: hidden;
     background-color: transparent;
-  }
+ }
 
 /* .montecarlo-regular{
     font-family: "MonteCarlo", serif;
@@ -23,7 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 9rem;
+    font-size: 7rem;
 
   }
 
@@ -50,6 +50,33 @@
     z-index: 1;
   }
 
+.Section1{
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutSection{
+    background-color: #ffe6e6;
+    padding: 30px 60px 50px 60px;
+    /* height: 40vh; */
+}
+
+ h3{
+    font-family: "Noto Serif Display", serif;
+}
+
+/* .pop-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@keyframes popIn{
+    to {
+        opacity: 1;
+        transform: scale(1);
+      }
+} */
+
   @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -60,3 +87,4 @@
       transform: translateY(0);
     }
   }
+
