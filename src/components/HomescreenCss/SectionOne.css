@@ -57,12 +57,15 @@
 
 .AboutSection{
     background-color: #ffe6e6;
-    padding: 30px 60px 50px 60px;
-    /* height: 40vh; */
+    padding: 30px 90px 30px 60px;
+    display: flex;
+    flex-direction: row;
 }
 
  h3{
     font-family: "Noto Serif Display", serif;
+    align-content: center;
+    justify-content:center;
 }
 
 /* .pop-in {
