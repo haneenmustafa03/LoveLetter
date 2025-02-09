@@ -1,8 +1,18 @@
 # React + Vite
+Valentine's day is right across the corner and we want to break down the stereotype of spending February 14th with a partner. A day dedicated to love does not only mean that you have to have a date, we want to break the norms and remind people that self-love is also equally as important. 
+“You can't love someone else if you don't love yourself”
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To download all dependencies:
+- npm install
 
-Currently, two official plugins are available:
+For Linux Users:
+- sudo apt update
+- sudo apt install nodejs npm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run locally:
+- npm run dev
+
+If you run into errors regarding packages:
+- rm -rf node_modules
+- rm package-lock.json
+- npm install

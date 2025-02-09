@@ -27,6 +27,13 @@
 
   }
 
+  .montserrat-regular{
+    font-family: "Montserrat", sans-serif;
+    align-content: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+
   
   /* Ensure particles take full width and height */
   #tsparticles {
@@ -57,6 +64,7 @@
 
 .AboutSection{
     background-color: #ffe6e6;
+    /* background: linear-gradient(45deg, #f9b7b9, #fbe2db); */
     padding: 30px 90px 30px 60px;
     display: flex;
     flex-direction: row;

@@ -1,5 +1,6 @@
 .resource-container {
-    font-family: "Noto Serif Display", serif;
+    font-family: "Montserrat", serif;
+    font-weight: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +14,7 @@
 /* Section Title */
 .section-title {
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #CC3339; /* RED */
     margin-bottom: 2rem;
     text-shadow: 2px 2px 4px rgba(45, 2, 2, 0.2);
@@ -21,7 +22,7 @@
 
 .title-caption{
     font-size: 1.3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     color:#CC3339;
     margin-bottom: 2rem;
 }
@@ -56,8 +57,10 @@
 
 /* Tile Title */
 .tile-title {
+    font-family: "Montserrat", serif;
+    font-weight: normal;
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #CC3339; 
 }
 

@@ -105,7 +105,19 @@ export const SectionOne = () => {
       ) : (
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
-        <TypewriterTitle text="Love Letter" className="syncopate-regular" />
+
+      <div className = "WelcomeSection">
+      <TypewriterTitle text="Love Letter" className="syncopate-regular" />
+      
+      </div>
+      <div className = "AboutSection">
+          <h2>
+            Our Mission
+          </h2>
+          <h3 className = "montserrat-regular">
+            Valentine’s Day is right around the corner, but for many women, it can be a time of loneliness rather than celebration. Studies show that nearly half of single women feel increased sadness or pressure during this season due to societal expectations around love and relationships. That’s why we created Love Letter—to uplift and empower women during this time. Our platform is designed to remind you that self-love is just as important as romantic love. With thoughtfully curated self-date ideas, loving journaling prompts, and self-gifting inspiration, we encourage you to make this Valentine’s Day about you!💌         
+          </h3>
+        </div>
     </div>
   );
 };
