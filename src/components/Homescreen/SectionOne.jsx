@@ -99,13 +99,24 @@ export const SectionOne = () => {
   );
 
   return (
-    <div className="WelcomeSection">
+    <div className="Section1">
       {init ? (
         <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
       ) : (
         <p>Loading particles...</p> // Temporary text to debug if component is rendering
       )}
-        <TypewriterTitle text="Love Letter" className="syncopate-regular" />
+
+      <div className = "WelcomeSection">
+      <TypewriterTitle text="Love Letter" className="syncopate-regular" />
+      </div>
+      <div className = "AboutSection">
+          <h2>
+            Our Mission
+          </h2>
+          <h3>
+            I want to express my love and gratitude to everyone who has helped me in my journey. I want to share my experiences and lessons learned with others, and I want to inspire them to reach their full potential. I want to remind myself of the importance of being true to myself and my values, and I want to encourage others to do the same.
+          </h3>
+        </div>
     </div>
   );
 };

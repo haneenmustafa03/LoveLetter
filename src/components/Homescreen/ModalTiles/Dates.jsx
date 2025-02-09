@@ -9,7 +9,9 @@ export const Dates = () => {
     const [randomIdeas, setRandomIdeas] = useState([]);
 
     const openModal3 = () => setIsModalOpen3(true);
-    const closeModal3 = () => setIsModalOpen3(false);  
+    const closeModal3 = () => {
+        setIsModalOpen3(false);  
+        setRandomIdeas([]);}
 
     const getDateIdeas = async () => {
         const response = await fetch('src/assets/date_ideas.txt');
@@ -32,11 +34,11 @@ export const Dates = () => {
     return (
     <div>
       <button className="box" onClick={openModal3}>
-        <h1>SELF DATE INSPO</h1>
+        <h1>SOLO DATE IDEAS</h1>
         <img src={butterflyIcon} alt="butterfly" id="butterfly" />
       </button>
-      <Modal isOpen={isModalOpen3} onClose={closeModal3}>
-        <h2>self-date ideas !</h2>
+      <Modal isOpen={isModalOpen3} onClose={closeModal3} className="modal-dates">
+        <h2>solo date ideas !</h2>
         <ul>
           {randomIdeas.map((idea, index) => (
             <li key={index}>{idea}</li>

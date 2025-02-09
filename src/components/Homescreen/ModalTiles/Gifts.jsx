@@ -38,10 +38,9 @@ export const Gifts = () => {
             <h1>GIFT INSPO</h1>
             <img  src = {heartIcon2} alt = "heart2" id = "heart" />
             </button>
-            <Modal isOpen={isModalOpen2} onClose={closeModal2}>
+            <Modal isOpen={isModalOpen2} onClose={closeModal2} className="modal-gifts">
             <h2>Valentine's Day Gift Ideas (by your friend, chat)</h2>
             <p id = "chatgptText"> {response} </p>
-            
         </Modal>
         </div>
         

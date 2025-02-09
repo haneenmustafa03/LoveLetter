@@ -28,6 +28,9 @@
     cursor: pointer;
     border: none;
     background: none;
+    color: #FF1493;
+    font-size: 24px;
+    font-weight: bold;
   }
   h2 {
     margin: 7vh 1vh;
@@ -55,13 +58,58 @@
 }
 
 .generatorButton{
-  margin-top: 5vh;
-  font-family: "Syncopate";
+  display: block;
+    margin: 30vh auto 0;
+    font-family: "Syncopate", sans-serif;
+    font-size: 1.5em;
+    background-color: #F9DCE1;
+    border: 3px solid #CC3339;  /* Single clean border */
+    border-radius: 12px;  /* Rounded edges for a softer look */
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 10;
+
+}
+
+.generatorButton:hover {
+  background-color: #CC3339;
+  color: white;
+}
+
+/* Gifts Modal */
+.modal-gifts {
+  background-color: #FFB6C1;  /* Soft pink */
+  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);  /* Soft glow effect */
+}
+
+/* Dates Modal */
+.modal-dates {
+  background-color: #FFD1DC;  /* Light pink */
+  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);
+}
+
+.modal-dates ul,
+.modal-journal ul{
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  text-align: center;
+}
+
+.modal-dates li,
+.modal-journal li {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
-  /* color: #333333; */
-  background-color: #F9DCE1;
-  border-color:#CC3339;
-  border-radius: 5px;
-  border-width: 10px;
-  cursor: pointer;
+  color: #CC3339;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Journal Modal */
+.modal-journal {
+  background-color: #FFE4E1;  /* Rosy pink */
+  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.4);
 }
