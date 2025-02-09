@@ -99,7 +99,8 @@ export const SectionOne = () => {
   );
 
   return (
-    <div className="WelcomeSection">
+    <div className="Section1">
+      <TypewriterTitle text="Love Letter" className="syncopate-regular" />
       {init ? (
         <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
       ) : (
@@ -107,7 +108,6 @@ export const SectionOne = () => {
       )}
 
       <div className = "WelcomeSection">
-      <TypewriterTitle text="Love Letter" className="syncopate-regular" />
       </div>
       <div className = "AboutSection">
           <h2>
