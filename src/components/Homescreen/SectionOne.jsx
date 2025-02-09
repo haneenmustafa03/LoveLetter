@@ -113,8 +113,8 @@ export const SectionOne = () => {
           <h2>
             Our Mission
           </h2>
-          <h3>
-            I want to express my love and gratitude to everyone who has helped me in my journey. I want to share my experiences and lessons learned with others, and I want to inspire them to reach their full potential. I want to remind myself of the importance of being true to myself and my values, and I want to encourage others to do the same.
+          <h3 className = "montserrat-regular">
+            Valentine’s Day is right around the corner, but for many women, it can be a time of loneliness rather than celebration. Studies show that nearly half of single women feel increased sadness or pressure during this season due to societal expectations around love and relationships. That’s why we created Love Letter—to uplift and empower women during this time. Our platform is designed to remind you that self-love is just as important as romantic love. With thoughtfully curated self-date ideas, loving journaling prompts, and self-gifting inspiration, we encourage you to make this Valentine’s Day about you!💌         
           </h3>
         </div>
     </div>
