@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { loadHeartShape } from "@tsparticles/shape-heart";
-import { Section } from "../animations/scroll.jsx"
+import { TypewriterTitle } from "../animations/scroll";
 // import { useInView } from "react-intersection-observer";  // Import Intersection Observer hook
 
 export const SectionOne = () => {
@@ -99,7 +99,7 @@ export const SectionOne = () => {
   );
 
   return (
-    <div className="Section1">
+    <div className="WelcomeSection">
       {init ? (
         <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
       ) : (
@@ -107,7 +107,7 @@ export const SectionOne = () => {
       )}
 
       <div className = "WelcomeSection">
-      <h1 className="syncopate-regular"><Section>Love</Section><Section>Letter</Section></h1>
+      <TypewriterTitle text="Love Letter" className="syncopate-regular" />
       </div>
       <div className = "AboutSection">
           <h2>
