@@ -23,7 +23,7 @@ export const Gifts = () => {
         const completion = await openai.chat.completions.create({
           model: "gpt-4o-mini",
           store: true,
-          messages: [{ role: "user", content: "give me 3 gift ideas for valentine's for myself very concise list " }],
+          messages: [{ role: "user", content: "give me 3 gift ideas for valentine's for myself concise sentence no numbering" }],
         });
 
         setResponse(completion.choices[0].message.content);
@@ -35,7 +35,7 @@ export const Gifts = () => {
     return (
         <div>
             <button class = "box" onClick={openModal2}>
-            <h1>GIFT INSPO</h1>
+            <h1>GIFT IDEAS</h1>
             <img  src = {heartIcon2} alt = "heart2" id = "heart" />
             </button>
             <Modal isOpen={isModalOpen2} onClose={closeModal2} className="modal-gifts">
