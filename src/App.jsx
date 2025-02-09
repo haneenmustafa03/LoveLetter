@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
 import "./App.css";
@@ -14,6 +14,19 @@ function App() {
  // const particlesLoaded = (container) => {
  //   console.log(container);
  // };
+ const sectionTwoRef = useRef(null);
+
+ useEffect(() => {
+  const timer = setTimeout(() => {
+    if (sectionTwoRef.current) {
+      sectionTwoRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, 2000);
+  return () => clearTimeout(timer);
+  }, []);
  return (
    <div className="screen">
      {/* Section 1 */}
@@ -22,6 +35,9 @@ function App() {
 
 
      {/* Section 2 */}
+     <div ref={sectionTwoRef}>
+     
+     </div>
      <SectionTwo />
 
 
