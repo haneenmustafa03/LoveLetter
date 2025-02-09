@@ -9,7 +9,10 @@ export const Journal = () => {
     const [randomPrompts, setRandomPrompts] = useState([]);
 
     const openModal1 = () => setIsModalOpen1(true);
-    const closeModal1 = () => setIsModalOpen1(false);  
+    const closeModal1 = () => {
+        setIsModalOpen1(false)  
+        setRandomPrompts([]); 
+        };
 
     const getPromptIdeas = async () => {
         const response = await fetch('src/assets/prompts.txt');
